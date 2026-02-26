@@ -63,7 +63,7 @@ jobs:
       - lint-gh-cli-readme
       - lint-scripts-readme
     permissions:
-      pull-requests: write
+      issues: write
 
     steps:
       - name: Download lint results
