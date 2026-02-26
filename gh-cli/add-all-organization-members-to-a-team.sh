@@ -28,3 +28,5 @@ for member in $members; do
     echo -e "${RED}Failed to add $member to $team${NC}"
   fi
 done
+
+echo "nice"
